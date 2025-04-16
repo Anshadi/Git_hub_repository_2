@@ -1,0 +1,30 @@
+body {
+  background-color: aquamarine;
+}
+button img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+button {
+  border: none;
+  background-color: transparent;
+  margin: 20px; 
+  cursor: pointer;
+}
+
+table th {
+    background-color: #8A26E2;
+    color: white;
+    padding: 5px;
+}
+#reset_btn_image{
+  height: 50px;
+  width: 50px;
+}
+
+table td {
+  background-color: wheat;
+  color: black;
+  padding: 5px;
+}

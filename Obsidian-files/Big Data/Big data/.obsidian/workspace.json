@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "e8bc77fc4a3fbef5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cec3709444affa3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7210fb4b42711c44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Kafka/KAFKA---.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d04384bdca197b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Native.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00fa3b596857624d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Containerization/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf0b52a26c814082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Containerization/Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "139cdeb0c08e3feb",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e2b7d376430a02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d1731830783d47f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "27563921d37e9961",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db054d81dacbace8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8b3a5b8027c52116",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa270816f08bd1cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cce5c56ec3704802",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Containerization/Kubernetes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e6557b382c3d03b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Containerization/Kubernetes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9bdef52fa77b2ed2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b5ec61fe84a0183f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Containerization/Kubernetes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "00fa3b596857624d",
+  "lastOpenFiles": [
+    "Pasted image 20240517141135.png",
+    "Pasted image 20240517141116.png",
+    "Maven.md",
+    "Cloud Native.md",
+    "Welcome.md",
+    "Full.md",
+    "Screenshots/Pasted image 20240516095711.png",
+    "Containerization/Kubernetes.md",
+    "Containerization/Docker.md",
+    "Apache Kafka/KAFKA---.md",
+    "Screenshots/Pasted image 20240516095646.png",
+    "Screenshots/Pasted image 20240516095148.png",
+    "Screenshots/Pasted image 20240516094753.png",
+    "Screenshots/Pasted image 20240515231140.png",
+    "Screenshots/Pasted image 20240515230055.png",
+    "Screenshots/Pasted image 20240515225549.png",
+    "Screenshots/Pasted image 20240515225534.png",
+    "Screenshots/Pasted image 20240515225340.png",
+    "Untitled",
+    "Containerization",
+    "2024-05-11.md",
+    "Screenshots/Untitled.md",
+    "Screenshots",
+    "Screenshots/Screenshots.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "2024-05-05.md",
+    "Apache Kafka"
+  ]
+}

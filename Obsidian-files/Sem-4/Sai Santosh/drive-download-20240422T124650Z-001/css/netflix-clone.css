@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    background-image: url('../resources/images/netflix-background.jpg');
+    height: 800px;
+}
+
+.header__top img {
+    width: 89px;
+    height: 24px;
+    padding: 24px 32px 24px 32px;
+}

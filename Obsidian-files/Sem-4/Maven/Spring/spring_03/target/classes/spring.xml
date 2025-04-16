@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="alien" class="com.asthana.Alien" autowire= "byType">
+
+
+        <property name="age" value="10" />
+        <!-- <property name="Laptop" ref="Laptop" /></bean> -->
+
+        <!-- <property name="com" ref="laptop" /> -->
+
+
+        <!-- <constructor-arg index="0" value="10" />
+        <property name="laptop" ref="laptop" /> -->
+
+    </bean>
+
+
+    <bean id="laptop" class="com.asthana.Laptop">
+    </bean>
+    <bean id="desktop" class="com.asthana.Desktop" primary="true">
+    </bean>
+        
+</beans>
+
+
+

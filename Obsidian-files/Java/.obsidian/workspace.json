@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "94995521b85c8336",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a70d58492e02f26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfafe3fb0a3af7ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mockito.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mockito"
+            }
+          },
+          {
+            "id": "f38a2419cd70f1b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rabbit Mq.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rabbit Mq"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "888502ba65d1ebf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "58c5e005961b452b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d52bbd4448af7e51",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "41ecd3eb2d106366",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#For_Each",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a5156832cd5a931d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "771481020b18e62f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d97348c897baff3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c59afe897ca2567a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Microservices/Terms --.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Terms --"
+            }
+          },
+          {
+            "id": "a8e5b793646fdb0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Microservices/Terms --.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Terms --"
+            }
+          },
+          {
+            "id": "5cf49cccd5b2fe14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4bccb32f0ff80827",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Microservices/Terms --.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Terms --"
+            }
+          },
+          {
+            "id": "486b0aec4a829e87",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "f38a2419cd70f1b1",
+  "lastOpenFiles": [
+    "Pasted image 20241211154448.png",
+    "Pasted image 20241211153917.png",
+    "Pasted image 20241211153553.png",
+    "Pasted image 20241211152559.png",
+    "Pasted image 20241210210244.png",
+    "Pasted image 20241210205714.png",
+    "Pasted image 20241210205439.png",
+    "Pasted image 20241210205036.png",
+    "Pasted image 20241210205023.png",
+    "Pasted image 20241210204319.png",
+    "Pasted image 20241210203456.png",
+    "Mockito.md",
+    "Rabbit Mq.md",
+    "Untitled",
+    "Maven.md",
+    "JUNIT5.md",
+    "Jmeter.md",
+    "Spring Boot JDBC-.md",
+    "Spring Cloud Gateway.md",
+    "Spring projects.md",
+    "Spring Structure -.md",
+    "spring unhinged.md",
+    "Payment Gateway --.md",
+    "Notification System.md",
+    "Single Sign On.md",
+    "Jenkins.md",
+    "Microservices/Terms --.md",
+    "Microservices/Spring Batch Processing.md",
+    "Microservices/Screenshots",
+    "API Gateway.md",
+    "Changes in Java.md",
+    "Elastic Stack.md",
+    "Git & GitHub.md",
+    "Hindi Bakwas.md",
+    "Java -  OOPs.md",
+    "JAVA -TO.md",
+    "JAVA C--.md",
+    "Java Spring Security - JWT & OAuth.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Microservices",
+    "Notification System",
+    "Big Data/Big data/Screenshots",
+    "Big Data/Big data/Containerization",
+    "Big Data/Big data/Apache Kafka",
+    "Big Data/Big data",
+    "Big Data",
+    "screenshots",
+    "screenshots/Untitled.canvas"
+  ]
+}

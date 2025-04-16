@@ -1,0 +1,25 @@
+to run redis  ---
+
+docker pull redis
+docker run --name my-redis -d redis
+
+docker rm my-redis
+docker start my-redis
+
+docker inspect my-redis
+docker stop my-redis 
+
+docker exec -it my-redis redis-cli
+docker run --name my-redis -d -p 6379:6379 redis
+
+
+
+To run mysql --
+docker start mysql-container
+docker exec -it mysql-container mysql -u root -p
+docker rm mysql-container
+docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v mysql_data:/var/lib/mysql -d mysql
+docker ps -a
+
+
+After running both , start the application and can check through cmd for redis client as it will act like that

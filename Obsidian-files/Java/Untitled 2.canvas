@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"a9fca75568da47ba","type":"text","text":"Controller","x":-380,"y":-228,"width":134,"height":50},
+		{"id":"5963eff1f9da37de","type":"text","text":"Configurations","x":-155,"y":-278,"width":184,"height":50},
+		{"id":"e450bcb32b524628","type":"text","text":"Services","x":29,"y":-80,"width":121,"height":50},
+		{"id":"070cf5e70661d339","type":"text","text":"DTO","x":-300,"y":-80,"width":108,"height":50},
+		{"id":"d9483d89ad86f30f","type":"text","text":"Repositories","x":-120,"y":120,"width":178,"height":50},
+		{"id":"b9a013d079919d11","type":"text","text":"@Repository","x":-174,"y":218,"width":154,"height":50},
+		{"id":"42f363dfe323af3f","type":"text","text":"Entity","x":-399,"y":452,"width":104,"height":50},
+		{"id":"519a388a4c6786e0","type":"text","text":"Primary Key Type","x":-222,"y":452,"width":191,"height":50},
+		{"id":"5917b1dd63abdc9c","type":"text","text":"JpaRepository","x":-383,"y":340,"width":177,"height":50},
+		{"id":"a115d1cb93fb6115","type":"text","text":"Entities","x":90,"y":-203,"width":132,"height":50},
+		{"id":"d0fc8b853e06dee6","type":"text","text":"Interface","x":-20,"y":330,"width":140,"height":50},
+		{"id":"14f7c828d4948467","type":"text","text":"Table","x":-315,"y":559,"width":109,"height":60},
+		{"id":"acc06ad597dcaa86","type":"text","text":"@Entity","x":-580,"y":529,"width":135,"height":60},
+		{"id":"e8e2deab4b08611c","type":"text","text":"CSR","x":-412,"y":-480,"width":99,"height":54},
+		{"id":"fa16869f75550002","x":-580,"y":-113,"width":106,"height":58,"type":"text","text":"Path"}
+	],
+	"edges":[
+		{"id":"55a84f5a0886688c","fromNode":"a9fca75568da47ba","fromSide":"bottom","toNode":"e450bcb32b524628","toSide":"bottom"},
+		{"id":"952fb50e3f1332e5","fromNode":"e450bcb32b524628","fromSide":"top","toNode":"d9483d89ad86f30f","toSide":"right"},
+		{"id":"f6f0df31b138f11c","fromNode":"d9483d89ad86f30f","fromSide":"bottom","toNode":"b9a013d079919d11","toSide":"top"},
+		{"id":"48b19e63b116a155","fromNode":"b9a013d079919d11","fromSide":"bottom","toNode":"5917b1dd63abdc9c","toSide":"top"},
+		{"id":"1f9166150370934d","fromNode":"5917b1dd63abdc9c","fromSide":"bottom","toNode":"42f363dfe323af3f","toSide":"top"},
+		{"id":"01b967b905a68853","fromNode":"5917b1dd63abdc9c","fromSide":"bottom","toNode":"519a388a4c6786e0","toSide":"top"},
+		{"id":"fa4e99ab26d912a8","fromNode":"42f363dfe323af3f","fromSide":"bottom","toNode":"acc06ad597dcaa86","toSide":"top"},
+		{"id":"f0e932c4f8d9ceab","fromNode":"b9a013d079919d11","fromSide":"bottom","toNode":"d0fc8b853e06dee6","toSide":"top"},
+		{"id":"22867b5a3b4b06d6","fromNode":"42f363dfe323af3f","fromSide":"bottom","toNode":"14f7c828d4948467","toSide":"top"},
+		{"id":"240dcefa8cea72e9","fromNode":"a9fca75568da47ba","fromSide":"bottom","toNode":"fa16869f75550002","toSide":"top"}
+	]
+}

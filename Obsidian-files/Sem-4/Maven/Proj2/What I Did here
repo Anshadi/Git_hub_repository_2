@@ -1,0 +1,10 @@
+first i hadn't imported the junit
+I got that idea as the @test annotation was not being identified .
+
+we can do it by pressing enable java test button in testing
+
+Then the test class was saying not in the project path
+So i had to put it in the src folder
+
+Then created the revstring in the main folder inside src
+so i can give the package name to revstring

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> block vs inline</title>
+    <style>
+       
+       .class1 { background-color: black;}
+       .class1 {background-color:red;}
+        p {
+            padding-left: 20px;
+            margin : 0px;
+        }
+       .box {
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+       }
+       .signal1 {
+        background-color:red;
+        }
+       #signal2_id { 
+        background-color: blue;
+        }
+       .signal3 { 
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB+CAMAAADGKhVOAAAAYFBMVEX///8AAABoaGgQEBA3NzfExMSUlJSjo6PR0dGtra2bm5ugoKCYmJjt7e38/PwkJCRaWlq7u7t3d3dERETl5eUfHx/a2tpNTU3z8/MuLi7Ly8uzs7OBgYFSUlIYGBiLi4t+/K5MAAABzUlEQVRoge3b7ZKCIBgFYPAjK0NNzfxot/u/y0wzEXVjZuFtdjvnV840PoOCEL4xhiDIp0Qc0yxzdjmtuo95F/dS0qHRF3/GE2RsxqWcqNq755M4NGrJlRQkbKCyFxI2VdlzRKBGicrGFJ1ZHj19vknGkKOyHskQuqoszQgqVPZIwqpXuaLoyG3ElK1pVMZqWQ2p1Pb2xtQ39pGme2hkhE0dIuhm2vckyv1gMcfC3pOqDM/qk2JMdrUE+/E62mVnQ928QNuk5tXZBLAU45NC/dq8x/Q4Pumx3Gy/ajRVvjHKzlYUa3FNzoKRrmp20TxbUKzH5ODV7Mf3HAyyvj5rsk+9mfUSbxmLk7NFtmHhMus8e50NdscOa+wWLNi/xO7BggULFizYT2JXV45gf5vhnBrLc5PbCMPv23KdHbYZjL5s9B+N/YHtr0hgUm1P6iTpls1etEksy9PEMb/N229KjK11hagm7PAVG5FYxjyFtRewYMGC1UwAFixYsGDBggULFixYsGD/KSuVEjE2lsZZqAubpJAbOP7YtV7b+SxhKhgTQ/FWZr1ot3yUnjf3g9rtPlcEJf5RWMVVsu0P8rQ9uBJVlZbyNSX8rwqCIF1uCuccW10ZtO8AAAAASUVORK5CYII=");
+        background-size: contain;
+    }
+     .traffic-signals {
+        background-color: black;
+        width:100px;
+     }
+    </style>
+</head>
+<body>
+    <div class="classParent">
+        <div class="class1">this is a div tag</div>
+        <div class="class1">this is another div tag related to above div</div>
+        <div class="class2">this is 3rd div tag</div>
+        <div class="class3">this is 4th div tag</div>
+    </div>
+
+    <div class="traffic-signals">
+        <div class="signal1 box" id="signal1_id" ></div>
+        <div class="signal2 box" id="signal2_id"></div>
+        <div class="signal3 box" id="signal3_id">
+        </div>
+    </div>
+
+    <span>this is a span</span>
+    <span>this is another span</span>
+
+    <img src="../resources/images/facebook.svg" height="100px" width="100px" alt="">
+    <img src="../resources/images/instagram.svg" height="100px" width="100px" alt="">
+
+    <p> this is a <b>paragraph</b> </p>
+	<p> this is another <b>paragraph</b> </p>
+
+    <div>
+    <label>UserName</label>
+    <input type="text" placeholder="enter your username"> </input>
+    </div>
+    <div>
+    <label>Password</label>
+    <input type="password" placeholder="enter your password"></input>
+    </div>
+
+</body>
+</html>

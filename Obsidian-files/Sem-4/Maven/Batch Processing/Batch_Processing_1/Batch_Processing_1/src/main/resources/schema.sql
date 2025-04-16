@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS IRIS (
+  id SERIAL PRIMARY KEY,
+  sepal_length DECIMAL NOT NULL,
+  sepal_width DECIMAL NOT NULL,
+  petal_length DECIMAL NOT NULL,
+  petal_width DECIMAL NOT NULL,
+  variety VARCHAR(255) NOT NULL,
+  total DECIMAL NOT NULL
+);

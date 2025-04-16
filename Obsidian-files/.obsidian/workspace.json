@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "c6acbddf5f8a55c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ffbd03bb51c7bb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f69bf0f2d8dca265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Notes/MySQL & Design Patterns/MySQL Coding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQL Coding"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdf667c48134c26b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7945cac9cee2ba04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "005c688647c388a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64df36ba2cfc09e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4013ade3ca7ab551",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 564.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a44588948bde8dae",
+    "type": "split",
+    "children": [
+      {
+        "id": "58d53ba2368034d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05e4413e476b1c4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aditya/New/new.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for new"
+            }
+          },
+          {
+            "id": "1e3c2e016522bae8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Aditya/New/new.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from new"
+            }
+          },
+          {
+            "id": "cbd7ccf805140dd6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "af40547c0a4e17a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Aditya/New/new.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of new"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f69bf0f2d8dca265",
+  "lastOpenFiles": [
+    "Pasted image 20250414160759.png",
+    "Big Data/Big data/Screenshots/Pasted image 20241107181831.png",
+    "Obsidian Notes/MySQL & Design Patterns/MySQL Coding.md",
+    "Aditya/Object Oriented Design.md",
+    "Obsidian Notes/MySQL & Design Patterns/Networking/Networking.md",
+    "Pasted image 20250411191804.png",
+    "Pasted image 20250411191505.png",
+    "Pasted image 20250411191126.png",
+    "Pasted image 20250411190234.png",
+    "Pasted image 20250411185705.png",
+    "Pasted image 20250411185605.png",
+    "Pasted image 20250411185314.png",
+    "Pasted image 20250411184421.png",
+    "Pasted image 20250411184037.png",
+    "Aditya_2/Obsidian/Object Oriented Design.md",
+    "Aditya_2/Obsidian/Mongo DB.md",
+    "Aditya_2/Obsidian/Database modeling.md",
+    "Aditya_2/Obsidian/Database Important.md",
+    "Aditya_2/New/new.md",
+    "MongoDb/Replication.md",
+    "MongoDb/Data Mod.md",
+    "Java/JAVA -TO.md",
+    "Big Data/Big data/Containerization/Kubernetes - Complete.md",
+    "Java/JAVA C--.md",
+    "Obsidian Notes/MySQL & Design Patterns/code.txt.md",
+    "Obsidian Notes/MySQL & Design Patterns/MySql.md",
+    "Big Data/Big data/Maven.md",
+    "Big Data/Big data/Welcome.md",
+    "Big Data/Redis.md",
+    "Big Data/Big data/Containerization/Containers - Docker.md",
+    "Big Data/Big data/Containerization/Docker.md",
+    "Big Data/Big data/Containerization/Kubernetes.md",
+    "Aditya_2/node.js.md",
+    "Big Data/Big data/Cloud Native.md",
+    "Java/Microservices/Terms --.md",
+    "MongoDb/Mongo-Java.md",
+    "Java/Untitled.canvas",
+    "Java/Untitled 2.canvas",
+    "Java/Untitled 1.canvas",
+    "Java/Single Sign On",
+    "Java/Notification System",
+    "Service Discovery",
+    "Understanding service discovery properties",
+    "MongoDb",
+    "AWS",
+    "bs",
+    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js.map",
+    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.debug.js",
+    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js"
+  ]
+}

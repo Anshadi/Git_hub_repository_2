@@ -1,0 +1,83 @@
+[
+    {
+      "name": "The Great Gatsby",
+      "price": 15.99,
+      "author": "F. Scott Fitzgerald",
+      "category": "Classic Literature",
+      "image": "great_gatsby.jpg",
+      "title": "The Great Gatsby"
+    },
+    {
+      "name": "To Kill a Mockingbird",
+      "price": 12.50,
+      "author": "Harper Lee",
+      "category": "Classic Literature",
+      "image": "to_kill_a_mockingbird.jpg",
+      "title": "To Kill a Mockingbird"
+    },
+    {
+      "name": "1984",
+      "price": 10.25,
+      "author": "George Orwell",
+      "category": "Dystopian Fiction",
+      "image": "1984.jpg",
+      "title": "1984"
+    },
+    {
+      "name": "Harry Potter and the Philosopher's Stone",
+      "price": 20.00,
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "image": "harry_potter_philosophers_stone.jpg",
+      "title": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+      "name": "Pride and Prejudice",
+      "price": 14.75,
+      "author": "Jane Austen",
+      "category": "Classic Literature",
+      "image": "pride_and_prejudice.jpg",
+      "title": "Pride and Prejudice"
+    },
+    {
+      "name": "The Catcher in the Rye",
+      "price": 13.99,
+      "author": "J.D. Salinger",
+      "category": "Classic Literature",
+      "image": "catcher_in_the_rye.jpg",
+      "title": "The Catcher in the Rye"
+    },
+    {
+      "name": "Lord of the Flies",
+      "price": 11.95,
+      "author": "William Golding",
+      "category": "Classic Literature",
+      "image": "lord_of_the_flies.jpg",
+      "title": "Lord of the Flies"
+    },
+    {
+      "name": "The Hobbit",
+      "price": 18.50,
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "image": "the_hobbit.jpg",
+      "title": "The Hobbit"
+    },
+    {
+      "name": "The Hunger Games",
+      "price": 16.75,
+      "author": "Suzanne Collins",
+      "category": "Young Adult",
+      "image": "the_hunger_games.jpg",
+      "title": "The Hunger Games"
+    },
+    {
+      "name": "The Alchemist",
+      "price": 11.99,
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "image": "the_alchemist.jpg",
+      "title": "The Alchemist"
+    }
+  ]
+  

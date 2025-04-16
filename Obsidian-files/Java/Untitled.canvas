@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"55a0f3528578b31c","x":-349,"y":-352,"width":250,"height":60,"type":"text","text":"make dispatcher-servlet file "},
+		{"id":"de097a42f2fa8935","x":-73,"y":-202,"width":250,"height":60,"type":"text","text":"Write internet view resolver , jstl view , suffix and prefix in it ."}
+	],
+	"edges":[
+		{"id":"fd93a353893dfe09","fromNode":"55a0f3528578b31c","fromSide":"right","toNode":"de097a42f2fa8935","toSide":"left"}
+	]
+}

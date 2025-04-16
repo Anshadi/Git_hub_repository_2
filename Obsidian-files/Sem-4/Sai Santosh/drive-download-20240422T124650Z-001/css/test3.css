@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+#box1 {
+    background-color: red;
+}
+#box2 {
+    background-color: green;
+    /* margin-right: 100px; */
+}
+#box3 {
+    background-color: blue;
+}
+#box4 {
+    background-color:yellow;
+}
+
+.container {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}

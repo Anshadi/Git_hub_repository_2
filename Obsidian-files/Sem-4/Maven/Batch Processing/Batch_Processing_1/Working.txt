@@ -1,0 +1,31 @@
+havent wrote its note --
+
+
+first things first 
+ - we can write at the start @enableBatchProcessing , but it was done in the previous versions now we don't have to write it .Could give error .
+
+ There could be error relating to  batch job instance but it can be solved using 
+
+
+
+ spring.sql.init.mode=always
+spring.batch.jdbc.initialize-schema=always
+
+as it will automatically create the schema and table for us that are required or we can manaually copy the schema creation code from the git hub to our schema.sql file .
+
+
+Now another thing is that maybe on starting the server of iris in postgres it won't run , it maybe because i am using Docker too so there is some type of ip subnet mask conflict so i have to run the postgres-container in docker then i have to login to my database and then i can connect to the server from pgadmin4 .
+
+And in the  Flat File Item Reader , we have to skip the header line so it doesn't take it and give error so we use 
+    .linesToSkip(1) // This skips the header row
+
+
+And we can't keep both the class name and the csv file name same as Iris because when we will mention the path , it will take iris.java path and not the Iris.csv one .
+
+
+docker start postgres-container
+docker ps
+docker exec -it postgres-container psql -U root -d Iris
+
+
+

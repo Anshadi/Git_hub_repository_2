@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya</title>
+</head>
+<body>
+    <p> My Name Is Aditya</p>
+    <h1> Changed through js</h1>
+    <h2 id="heading1"> Changed through js</h2>
+    <h2 class="heading2"> accessed through js </h2>
+    <button id="btn"> Click me!</button>
+    <input type="text" id="input" value="Enter your name">
+    <script src = "DOM1.js"></script>          
+</body>
+</html>
+
+Q-1 Why script written in head tag is not working?
+/*script should be written in last conventionally but could be written in our head tag also . 
+But when written in head our js code will be lopaded first than our html code.*/
+//then dom elements will not be accesible and on console.dir(body) will give null .
+//thats why we should write script in end.

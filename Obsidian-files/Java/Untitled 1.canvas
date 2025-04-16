@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"3e3fe0d62e965cb4","type":"text","text":"Request","x":104,"y":69,"width":147,"height":50},
+		{"id":"0951f603c1191840","type":"text","text":"Singleton","x":-79,"y":-81,"width":139,"height":50},
+		{"id":"0e7daac6399a2f40","type":"text","text":"Web Socket","x":-437,"y":-199,"width":177,"height":50},
+		{"id":"cfedb5a4e1ed37f9","type":"text","text":"Apllication","x":-412,"y":-81,"width":152,"height":50},
+		{"id":"a450cda4bc14df23","type":"text","text":"Session","x":-159,"y":20,"width":119,"height":54},
+		{"id":"d34910762c53c241","type":"text","text":"Prototype","x":39,"y":-219,"width":139,"height":50},
+		{"id":"5e9e517f9de253cb","type":"text","text":"Scope -6","x":-175,"y":-320,"width":135,"height":60}
+	],
+	"edges":[]
+}

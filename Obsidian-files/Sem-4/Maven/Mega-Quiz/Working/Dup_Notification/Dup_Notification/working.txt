@@ -1,0 +1,91 @@
+now 1st start the service registry server that is eureka - notification server , then start kafka and once using cmd check whether the topic existss or not and check their working thorugh cmd by creating  a consumer and producer and sending a message then start the mongo db server and put the right user and password because i have set a temparay user so have to again set the user and password for the new user - current username and password both is asdf .
+then in the  last start this service i.e dup_notification application .  Whether kafka is running or not can be checked by using thathe kafka -tools or known as offset explorer .
+
+And remember that we have to generate a app password thorugh our google account through which we want to send the email then we have to add that in our application.properties file .
+
+And if kafka is not working then we can completly delete the logs of both of kafka and zookeeper to make it start from fresh, there won't be any error .
+
+
+Whenever error comes , have to verify things one by one , no panic .
+
+
+the flow of the program is like this 
+
+
+
+Problem was jacckson library was not imported .
+
+
+### 1. Payment Success Notification
+
+#### Step 1: Message Arrival
+- A message related to payment success is produced to the `payment-topic` in Kafka. This message is of type `PaymentConfirmation`, which contains details such as the customer’s name, email, amount, and order reference.
+
+#### Step 2: Kafka Listener Activation
+- The `NotificationConsumer` class has a method annotated with `@KafkaListener`, which listens to the `payment-topic`.
+- When a `PaymentConfirmation` message is received, the method `consumePaymentSuccessNotification` is triggered.
+
+#### Step 3: Logging the Message
+- The logger logs the incoming `PaymentConfirmation` message.
+
+#### Step 4: Saving Notification
+- A new `Notification` object is created using the builder pattern. It saves details such as the notification type (`PAYMEMENT_CONFIRMATION`), the current date and time, and the `PaymentConfirmation` object to the MongoDB database via the `NotificationRepository`.
+
+#### Step 5: Sending Email
+- The method constructs the customer name by concatenating the first and last name from the `PaymentConfirmation` object.
+- It then calls the `sentPaymentSuceessEmail` method of the `EmailService` class, passing in the customer's email, name, amount, and order reference.
+
+#### Step 6: Email Preparation in EmailService
+- Inside `sentPaymentSuceessEmail`:
+  - A new `MimeMessage` is created.
+  - A `MimeMessageHelper` is set up to assist in constructing the email.
+  - The email's "from" address is set, and the email subject is set using the relevant template.
+
+#### Step 7: Template Processing
+- A context is prepared with variables (customer name, amount, order reference).
+- The email is sent using `MailSender`.
+
+#### Step 8: Logging Email Status
+- The logger records whether the email was sent successfully or if an exception occurred.
+
+### 2. Order Confirmation Notification
+
+#### Step 1: Message Arrival
+- Similar to the payment notification, a message related to order confirmation is produced to the `order-topic` in Kafka. This message is of type `OrderConfirmation`.
+
+#### Step 2: Kafka Listener Activation
+- The `consumeOrderConfirmationNotification` method in the `NotificationConsumer` class listens for messages on the `order-topic`.
+
+#### Step 3: Logging the Message
+- The logger logs the incoming `OrderConfirmation` message.
+
+#### Step 4: Saving Notification
+- A new `Notification` object is created and saved to the database with the type `ORDER_CONFIRMATION`, current date and time, and the `OrderConfirmation` object.
+
+#### Step 5: Sending Email
+- The customer’s full name is constructed from the `OrderConfirmation` object.
+- The method `sendOrderConfirmationEmail` in the `EmailService` class is invoked with the customer’s email, name, total amount, order reference, and the list of products.
+
+#### Step 6: Email Preparation in EmailService
+- Inside `sendOrderConfirmationEmail`:
+  - A new `MimeMessage` is created.
+  - A `MimeMessageHelper` is set up.
+  - The "from" address and subject are set using the appropriate template.
+
+#### Step 7: Template Processing
+- A context is created with variables including the customer name, total amount, order reference, and list of products.
+- The email content is processed using the `SpringTemplateEngine` to convert the context into an HTML email format.
+
+#### Step 8: Sending the Email
+- The email is sent using `MailSender`.
+
+#### Step 9: Logging Email Status
+- The logger logs the success or failure of the email sending process.
+
+### Summary of Flow
+1. A message is produced to a Kafka topic (either `payment-topic` or `order-topic`).
+2. The appropriate listener in `NotificationConsumer` processes the message, saves it to the database, and extracts necessary information.
+3. The listener calls the `EmailService` methods to prepare and send the corresponding email notification.
+4. Each email method constructs a `MimeMessage`, fills in the details from the context, and sends it while logging the outcome.
+
+This flow ensures that payment and order confirmation emails are sent asynchronously based on events captured through Kafka, allowing for a decoupled architecture and scalable email notifications.

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    gap:30px;
+}
+
+.loginformcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login-logo {
+    height: 400px;
+    width: 400px;
+}
