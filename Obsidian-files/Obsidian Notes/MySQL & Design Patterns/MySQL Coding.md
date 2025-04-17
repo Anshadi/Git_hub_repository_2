@@ -1479,3 +1479,9 @@ OUTER APPLY (
 Now suppose , if we have to fetch all rows , before in join what we do is we write 
 `on 1=1` but now we can write `on true` or if we have to fetch no rows , we can write `on false ` .
 
+--------------
+
+Remember if i have to write something or some string as alias which has space seperated words , i will write it into `" Here  Like This " ` .
+
+
+
