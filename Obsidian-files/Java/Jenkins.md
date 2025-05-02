@@ -5,7 +5,7 @@ Manually , it is very difficult .
 
 Dev-Ops -- Development + Operation -- Project Development + Build And Deploy .
 
-Problems in doing this manually is --
+Problems in doing this manually is -- 
 ![[Pasted image 20241111174158.png]]
 
 Now to automate this process , we use Jenkins . 

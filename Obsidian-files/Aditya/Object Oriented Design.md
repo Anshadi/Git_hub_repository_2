@@ -452,7 +452,7 @@ How Ip Address is assigned - Using DHCP Server . It assigns the Ip to device .
 ![[Pasted image 20250411184037.png]]
 
 
-DHCP Server Stages   ------ 
+DHCP Server Stages   ------  
 
 So in offer , dhcp sends an ip and asks if it ok , if not the offer rejected and then dhcp sents another Ip . [[Pasted image 20250411184421.png]]
 
@@ -465,14 +465,18 @@ We can bypass the DHCP and assign an ip for ourself or we can let dhcp assign it
 
 Switch is a wired network . our laptop or computer connect through internet using wifi using access points . For wireless .
 
+Access point connects wireless networks . 
+
 It connects Wireless device into the wired network , it brings them to switch network . 
 So it acts as intermediatory .
 
 [[Pasted image 20250411185314.png]]
 
-[Pasted image 20250411185705.png]]
+[[Pasted image 20250411185705.png]]
 However , not all router may have modem built in them .
 
+
+Switch creates a network where as the router combines the network . 
 
 Router Acts as a gateway to join networks .
 ![[Pasted image 20250411190234.png]]
@@ -490,5 +494,121 @@ As it is our network address , then it will be same for all the devices connecte
 
 Like we can do our subnet mask as 255.255.255.1110 , where it will allow only one device to connect and all other devices will be dropped .
 
+
+Even if our device is not connected to anything , our device will still have ip address , but it will be local Ip address , so we can only talk to ourself , so not a useful Ip Address.
+
+
+> A **subnet mask** is used to determine **whether two IP addresses belong to the same network** or not.  
+> This is important because it decides **how the devices will communicate**.  
+
+> If they are in the **same network**, they can **talk to each other directly** using MAC addresses via ARP (Address Resolution Protocol).  
+> Otherwise, if they’re in **different networks**, communication must go through a **router**.
+
+>Here, the **switch can't do anything**, because the destination is **outside the local network**.  
+So, the device must send the packet to the **default gateway**, whose IP address is usually **assigned by the DHCP server**.  
+
+Typically the first Ip address of the network is assigned to the gateway . i.e. `192.168.1.1` is often assigned to the **router (default gateway)** ..
+
+> In that case, the sending device **forwards the packet to its default gateway** (i.e., the router).  
+> The router then **looks at the destination IP address**, checks its routing table, and **forwards the packet** to the appropriate next hop or destination network.  
+> This process continues until the packet reaches a router that knows how to reach the target device.
+
+
+[[Pasted image 20250418181547.png]]
+
+Here bob and Alice are in different network . one is in 11.12.11.x and another in 21.22.21.x  .
+
+
+Now we know the Router Ip address but don't know its mac address . We will know it through ARP method .  
+
+[[Pasted image 20250418182225.png]]
+
+Now we setup the header with the dest. Ip and the router mac address as switch can't do anything.  
+
+- Why router’s MAC? Because the destination IP is not in your local network, so you **forward to router**.
+
+
+Now router discards the mac header , only source ip and dest. Ip header  .  
+
+
+Now router chks on which network dest. Ip will be On .
+
+It knows that 21.22.21.x is connected to Right-Blue Interface . as from routing table . 
+Now the dest. ip is removed and only the source Ip is kept when send the message .
+
+For the First Time - 
+❗ **If router does NOT know Bob’s MAC address**:
+- It sends an **ARP request**:
+- That **ARP request is broadcasted** within the destination subnet (21.22.21.0/24). 
+- Bob replies .
+- Router updates its ARP table and sends the data frame **directly to Bob**.
+-
+
+**If router knows Bob’s MAC address** (already in its ARP table):
+- Sends the frame **directly** to Bob.
+
+[[Pasted image 20250418183613.png]]
+Once the router identifies Bob's IP **and knows his MAC address**, it **adds a new MAC (Ethernet) header** before forwarding the packet.
+
+
+Now if bob wants to respond - 
+It adds the its ip in source and Alice ip in destination , as it knows now Alice Ip . In mac address its Mac address as source  and Router mac address as destination .
+
+Mac address is only when they are connecting in the switch , if outside the switch , it will happen with Ip address .
+
+
+Every time a packet leaves a network and hits a **router**, the MAC header is **rebuilt for the next hop**, while the **IP header stays the same**.
+
+
+[[Pasted image 20250418184305.png]]
+
+[[Pasted image 20250418184537.png]]
+
+[[Pasted image 20250418184728.png]]
+
+
+
+Now if there are many routers , and if both Alice and Bob is connected to different routers and these routers are connected to each other . Then  
+[[Pasted image 20250418185119.png]]
+
+
+Here everything same happens , but when the message reaches to the router , then it removes the header and then through the routing table of the router it sends it to the dest. router and then it sends to the dest . Ip Address .
+
+[[Pasted image 20250418185456.png]]
+
+
+
+#### Internet Service Provider (ISP) --
+[[Pasted image 20250418190248.png]]
+
+If both device is connected through same ISP , then don't need to go to internet for communication, can connect to each other in less hop directly from the ISP .
+
+We get Public Ip from ISP , we can't get on our own . It is needed to connnect to network .
+
+Devices only have Private Ips , but our network or router has Public Ips too .
+
+Our entire Network only gets a single Public Ip .
+
+Now if all has a single Ip address then inside it to decide to which device we have to send the data is done by Nat . 
+
+Nat came to slow down consumption of Ips , before that , there was no concept of private Ips Only Public Ips .
+
+[[Pasted image 20250418191139.png]]
+
+NAT server runs in the router .
+
+
+
+***Networking With NAT ---***
+
+
+The sender assigns itself the port randomly , the Router maintains the NAT table and stores its info . It randomly assigns itself an external Port and then the message is passed to the destination .
+
+[[Pasted image 20250418191637.png]]
+
+
+[[Pasted image 20250418191749.png]]
+
+[[Pasted image 20250418192017.png]]
 
 

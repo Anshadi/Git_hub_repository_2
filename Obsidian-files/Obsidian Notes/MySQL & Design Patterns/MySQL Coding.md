@@ -1485,3 +1485,4 @@ Remember if i have to write something or some string as alias which has space se
 
 
 
+Exists and not exists used when we are not expecting anythign from the inner subquery .

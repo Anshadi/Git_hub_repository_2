@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4ffbd03bb51c7bb6",
+        "id": "5c1bac884d1d09aa",
         "type": "tabs",
         "children": [
           {
-            "id": "f69bf0f2d8dca265",
+            "id": "a228d64f953bd48d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Notes/MySQL & Design Patterns/MySQL Coding.md",
+                "file": "Java/Jenkins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL Coding"
+              "title": "Jenkins"
+            }
+          },
+          {
+            "id": "6be1ffe32c3cf25b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dp/Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,11 +68,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -164,44 +179,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f69bf0f2d8dca265",
+  "active": "6be1ffe32c3cf25b",
   "lastOpenFiles": [
-    "Pasted image 20250414160759.png",
-    "Big Data/Big data/Screenshots/Pasted image 20241107181831.png",
+    "Pasted image 20250501184331.png",
+    "Pasted image 20250501183624.png",
+    "Pasted image 20250501183618.png",
+    "Pasted image 20250501183555.png",
+    "Pasted image 20250501182753.png",
+    "Pasted image 20250501182721.png",
+    "Java/Jenkins.md",
+    "Java/Jmeter.md",
+    "Dp/Concepts.md",
+    "Pasted image 20250423183600.png",
+    "Pasted image 20250423023331.png",
+    "Pasted image 20250423023245.png",
+    "Pasted image 20250423015914.png",
+    "Pasted image 20250423015850.png",
     "Obsidian Notes/MySQL & Design Patterns/MySQL Coding.md",
-    "Aditya/Object Oriented Design.md",
+    "Obsidian Notes/MySQL & Design Patterns/MySql.md",
+    "C-Concepts.md",
     "Obsidian Notes/MySQL & Design Patterns/Networking/Networking.md",
-    "Pasted image 20250411191804.png",
-    "Pasted image 20250411191505.png",
-    "Pasted image 20250411191126.png",
-    "Pasted image 20250411190234.png",
-    "Pasted image 20250411185705.png",
-    "Pasted image 20250411185605.png",
-    "Pasted image 20250411185314.png",
-    "Pasted image 20250411184421.png",
-    "Pasted image 20250411184037.png",
+    "Aditya/Object Oriented Design.md",
+    "Big Data/Big data/Containerization/Containers - Docker.md",
+    "Aditya_2/New/new.md",
+    "Database Concept/2 Phase Commit - SAGA Pattern.md",
+    "Dp",
+    "Database Concept",
+    "VIM.md",
+    "Screenshots",
     "Aditya_2/Obsidian/Object Oriented Design.md",
     "Aditya_2/Obsidian/Mongo DB.md",
     "Aditya_2/Obsidian/Database modeling.md",
     "Aditya_2/Obsidian/Database Important.md",
-    "Aditya_2/New/new.md",
     "MongoDb/Replication.md",
     "MongoDb/Data Mod.md",
     "Java/JAVA -TO.md",
     "Big Data/Big data/Containerization/Kubernetes - Complete.md",
     "Java/JAVA C--.md",
     "Obsidian Notes/MySQL & Design Patterns/code.txt.md",
-    "Obsidian Notes/MySQL & Design Patterns/MySql.md",
     "Big Data/Big data/Maven.md",
     "Big Data/Big data/Welcome.md",
     "Big Data/Redis.md",
-    "Big Data/Big data/Containerization/Containers - Docker.md",
-    "Big Data/Big data/Containerization/Docker.md",
-    "Big Data/Big data/Containerization/Kubernetes.md",
-    "Aditya_2/node.js.md",
-    "Big Data/Big data/Cloud Native.md",
-    "Java/Microservices/Terms --.md",
-    "MongoDb/Mongo-Java.md",
     "Java/Untitled.canvas",
     "Java/Untitled 2.canvas",
     "Java/Untitled 1.canvas",
@@ -211,9 +229,6 @@
     "Understanding service discovery properties",
     "MongoDb",
     "AWS",
-    "bs",
-    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js.map",
-    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.debug.js",
-    "serm__4/Maven/Mega-Quiz/Chat-group-general/chat-group-frontend/frontend/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js"
+    "bs"
   ]
 }
